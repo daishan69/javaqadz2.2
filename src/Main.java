@@ -7,7 +7,7 @@ public class Main {
         int admission = 2000;
         int unit = 100;
 
-        int bonus = balance + admission / unit;
+        int bonus = admission / unit;
         int total = balance + admission + bonus;
 
         if (admission < 1000){
